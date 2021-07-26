@@ -8,22 +8,22 @@ int main()
      scanf("%f %f", &a, &b);
 
      res=a+b;
-     printf("%f+%f=%f\n", a, b, res);
-     printf("Ans=%f\n", res);
+     printf("%.2f+%.2f=%.2f\n", a, b, res);
+     printf("Ans=%.2f\n", res);
 
      res=a-b;
-     printf("%f-%f=%f\n", a, b, res);
-     printf("Ans=%f\n", res);
+     printf("%.2f-%.2f=%.2f\n", a, b, res);
+     printf("Ans=%.2f\n", res);
 
      res=a*b;
-     printf("%f*%f=%f\n", a, b, res);
-     printf("Ans=%f\n", res);
+     printf("%.2f*%.2f=%.2f\n", a, b, res);
+     printf("Ans=%.2f\n", res);
 
      res=a/b;
-     printf("%f/%f=%f\n", a, b,res);
-     printf("Ans=%f\n", res);
+     printf("%.2f/%.2f=%.2f\n", a, b,res);
+     printf("Ans=%.2f\n", res);
 
-     printf("a=%f b=%f\n", a, b);
+     printf("a=%.2f b=%.2f\n", a, b);
 
     return 0;
      }
