@@ -28,5 +28,27 @@ printf("decimal of octal- %d\n", o);
 int h=0Xfff;
 printf("Im Hexadecimal- %X\n", h);
 printf("decimal of hexadecimal- %d\n", h);
+
+printf("Unsigned Intiger\n");
+
+//Unsigned Short
+unsigned short us=12;
+printf("Im unsigned Short- %hu\n", us);
+
+//Unsigned Int
+unsigned int ui=123;
+printf("Im unsigned Intiger- %u\n", ui);
+
+//Unsigned Long
+unsigned long ul=564;
+printf("Im unsigned Long- %lu\n", ul);
+
+//Unsigned Long Long
+unsigned long long ull=35461;
+printf("Im unsigned Long- %lu\n", ull);
+
+//negative in unsigned
+unsigned short n=-8;
+printf("Im Negative- %hu\n", n);
 return 0;
 }
