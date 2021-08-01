@@ -14,5 +14,10 @@ int main()
     char name3[20]={"NAIMUR RAHMAN"}; //string shortcut which is much easier than previous
     printf("%s\n", name3);
     printf("Index 0=%c\n Index 7=%c\n Index 8=%c\n", name3[0], name3[7], name3[8]);
+    char my_name[30];
+    printf("what's Your name?\n");
+    scanf("%s", &my_name);
+    printf("%s\n",my_name);
+    printf("Thank You, %s\n",my_name);
     return 0;
 }    
