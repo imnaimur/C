@@ -23,15 +23,19 @@ int main()
 
     //Right Shift
     unsigned char rs1=a>>1;
-    printf("Right Shift-1:%d\n",rs1);
-    printf("Right Shift-2:%d\n", a>>2);
-    printf("Right Shift-3:%d\n", a>>3);
+    unsigned char rs2=a>>2;
+    unsigned char rs3=a>>3;
+    printf("Right Shift-1:%d\n", rs1);
+    printf("Right Shift-2:%d\n", rs2);
+    printf("Right Shift-3:%d\n", rs3);
 
     //Left Shift
     unsigned char ls1=a<<1;
+    unsigned char ls2=a<<2;
+    unsigned char ls3=a<<3;
     printf("Left Shift-1:%d\n",ls1);
-    printf("Left Shift-2:%d\n", a<<2);
-    printf("Left Shift-3:%d\n", a<<3);
+    printf("Left Shift-2:%d\n", ls2);
+    printf("Left Shift-3:%d\n", ls3);
     
     return 0;
 }
